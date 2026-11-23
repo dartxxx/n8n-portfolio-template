@@ -1,0 +1,30 @@
+# Casos de Ejemplo (Draft para Postulación n8n - v3.1)
+
+## Base Template Universal (config.yaml)
+```yaml
+# config.yaml base
+thresholds:
+  hashrate_drop_percent: 30
+  hashrate_timeframe_min: 10
+  pnl_threshold: -2
+  error_rate_threshold: 5
+secrets:
+  env_file: ".env" # Las claves van aqui, NUNCA hardcodeadas
+```
+
+## Caso 1: Monitoreo de Minería
+- Descripción: Monitoreo de hashrate remoto.
+- Datos: Vía Webhook/Telegram desde rig (endpoint 192.168.20.40 PENDIENTE).
+- Snippet n8n: [Webhook -> Ornith Filter -> Telegram Alert]
+- Config: Usa `config.yaml` base.
+
+## Caso 2: Trader de Criptomonedas
+- Descripción: Monitoreo PnL y ordenes DCA.
+- Datos: Vía Webhook/Telegram desde gateway (pendiente).
+- Snippet n8n: [Webhook -> Ornith PnL Check -> Telegram Alert]
+- Config: Usa `config.yaml` base.
+
+## Caso 3: Agente Híbrido (Miner + Trader)
+- Descripción: Reporte combinado.
+- Snippet n8n: [Webhook -> Ornith Logic -> Telegram Aggregated Alert]
+- Config: Usa `config.yaml` base.

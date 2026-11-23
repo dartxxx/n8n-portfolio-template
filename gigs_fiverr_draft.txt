@@ -1,0 +1,26 @@
+# Gig 1: Custom FAQ AI Chatbot
+- Título: I will build a professional AI FAQ Chatbot for your business
+- Descripción: Automation of customer queries with local LLM. Setup, training on your FAQs and deployment.
+- Paquetes: 
+  - Basic: $80 (3 docs, 1 bot)
+  - Standard: $180 (10 docs, 2 bots)
+  - Premium: $350 (Unlimited, CRM integration)
+- FAQ: ¿Es seguro? Sí, los datos no se envían a terceros. ¿Usa APIs pagas? No, configuración local optimizada.
+
+# Gig 2: n8n Automation Workflow
+- Título: I will automate your business workflows with n8n
+- Descripción: Streamline tasks (CRM, Sheets, Webhooks). I build reliable and scalable workflows.
+- Paquetes:
+  - Basic: $150 (3 automations)
+  - Standard: $300 (10 automations)
+  - Premium: $500 (Complex integrations + Support)
+- FAQ: ¿Cómo funciona? Vía n8n + Webhooks. ¿Qué necesito? Acceso a las apps a conectar.
+
+# Gig 3: Custom AI Agent (Lead Gen / Monitoring)
+- Título: I will build a specialized AI Agent for your business
+- Descripción: Agent tailored for lead capture or system monitoring (logs, alerts). Runs local and secure.
+- Paquetes:
+  - Basic: $300 (Single task)
+  - Standard: $500 (Multi-task + Dashboard)
+  - Premium: $1,000 (End-to-end integration + Maintenance)
+- FAQ: ¿Es privado? Totalmente, corre localmente.
